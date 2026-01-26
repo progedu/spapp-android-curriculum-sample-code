@@ -1,8 +1,8 @@
-# Android Jetpack Compose サンプルアプリ集
+# Androidアプリ入門講座 サンプルプロジェクト
 
-このリポジトリは、教材で作成した **Jetpack Compose アプリのサンプルプロジェクト** を章ごとにまとめたものです。
+このリポジトリは、教材で作成した **アプリのサンプルプロジェクト** を章ごとにまとめたものです。
 
-各章は **独立した Android Studio プロジェクト** になっており、  該当章の内容をすぐに動かして確認できる構成になっています。
+各章は **独立した Android Studio プロジェクト** になっており、該当章の内容をすぐに動かして確認できる構成になっています。
 
 <br>
 
@@ -24,7 +24,8 @@
 ### 開発環境
 
 - Android Studio Otter 3 Feature Drop | 2025.2.3 以降
-- Kotlin / Jetpack Compose
+- Kotlin
+- Jetpack Compose
 
 <br>
 

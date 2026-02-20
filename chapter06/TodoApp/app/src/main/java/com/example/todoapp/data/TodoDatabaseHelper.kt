@@ -16,6 +16,7 @@ class TodoDatabaseHelper(context: Context) :
         // テーブルを作成
         val sql = "CREATE TABLE tasks (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, priority TEXT NOT NULL)"
         db?.execSQL(sql)
+
         // サンプルデータの追加
         db?.execSQL("INSERT INTO tasks (name, priority) VALUES (\"タスク\", \"高\" )")
         db?.execSQL("INSERT INTO tasks (name, priority) VALUES (\"タスク２\", \"中\" )")

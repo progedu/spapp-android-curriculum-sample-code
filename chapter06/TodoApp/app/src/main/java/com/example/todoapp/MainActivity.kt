@@ -6,7 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Create
+import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Scaffold
@@ -45,7 +45,7 @@ fun MainScreen(viewModel: TodoViewModel) {
             topBar = {
                 TopAppBar(
                     title = { Text(text = if (viewModel.taskToEdit == null) "タスクを追加" else "編集中") },
-                    navigationIcon = { Icon(imageVector = Icons.Default.Create, contentDescription = null) }
+                    navigationIcon = { Icon(imageVector = Icons.Default.Edit, contentDescription = null) }
                 )
             }
         ) { paddingValues ->

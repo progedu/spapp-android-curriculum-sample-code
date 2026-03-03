@@ -18,8 +18,6 @@
 | Chapter 06 | データベースを使ってみよう           | 2026-02-20 |
 | Chapter 07 |                                      |            |
 
-※ 各章の詳細は、章フォルダ内の README.md を参照
-
 <br>
 
 ### 開発環境
@@ -43,4 +41,3 @@ git clone https://github.com/progedu/spapp-android-curriculum-sample-code.git
 3\. 通常の Android プロジェクトとして実行
 
 <br>
-

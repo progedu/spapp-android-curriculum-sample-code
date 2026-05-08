@@ -14,7 +14,7 @@ data class WeatherUiModel(
     val feelsLike: Int,
     val sunrise: String,
     val sunset: String,
-    val weatherType: WeatherType,
+    val weatherType: WeatherType
 ) {
     val tempText: String
         get() = "${temp}℃"

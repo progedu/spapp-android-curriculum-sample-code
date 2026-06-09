@@ -10,7 +10,7 @@ val cities = listOf(
     City("Sendai", "仙台"),
     City("Shinjuku", "東京"),
     City("Nagoya", "名古屋"),
-    City("Osaka", "大阪"),
+    City("Osaka-shi", "大阪"),
     City("Kure", "広島"),
     City("Kitakyushu", "福岡"),
     City("Naha", "那覇"),
